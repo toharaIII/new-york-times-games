@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-center">Wordle</div>
+
+    <button id="playAgain" class="playAgain">Play Again</button>
+
+    <!--this shit just exists to debug the javascript i made for the play again button-->
+    <div id="playAgainGeneration"></div>
+
+    <div class="content">
+        <div class="guesses">
+            <div class="letter" data-index="0"></div>
+            <div class="letter" data-index="1"></div>
+            <div class="letter" data-index="2"></div>
+            <div class="letter" data-index="3"></div>
+            <div class="letter" data-index="4"></div>
+
+            <div class="letter" data-index="5"></div>
+            <div class="letter" data-index="6"></div>
+            <div class="letter" data-index="7"></div>
+            <div class="letter" data-index="8"></div>
+            <div class="letter" data-index="9"></div>
+
+            <div class="letter" data-index="10"></div>
+            <div class="letter" data-index="11"></div>
+            <div class="letter" data-index="12"></div>
+            <div class="letter" data-index="13"></div>
+            <div class="letter" data-index="14"></div>
+
+            <div class="letter" data-index="15"></div>
+            <div class="letter" data-index="16"></div>
+            <div class="letter" data-index="17"></div>
+            <div class="letter" data-index="18"></div>
+            <div class="letter" data-index="19"></div>
+
+            <div class="letter" data-index="20"></div>
+            <div class="letter" data-index="21"></div>
+            <div class="letter" data-index="22"></div>
+            <div class="letter" data-index="23"></div>
+            <div class="letter" data-index="24"></div>
+
+            <div class="letter" data-index="25"></div>
+            <div class="letter" data-index="26"></div>
+            <div class="letter" data-index="27"></div>
+            <div class="letter" data-index="28"></div>
+            <div class="letter" data-index="29"></div>
+        </div>
+    </div>
+
+    <div id="customModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p id="modalMessage"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
